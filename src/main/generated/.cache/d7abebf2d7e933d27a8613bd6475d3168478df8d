@@ -1,4 +1,4 @@
-// 1.21	2024-09-25T21:26:56.499047	Agronomy/Model Definitions
+// 1.21	2024-09-25T21:42:10.11651	Agronomy/Model Definitions
 41a3e1232cf227e763cd4999fc4eafaa05a57b22 assets/agronomy/models/item/sante_seed.json
 f5245ab2f78d267807a22d393a863ec48db53246 assets/agronomy/models/item/red_norland_seed.json
 6aec600bd2bcaa0fedb976488bb1cbda17fee8a9 assets/agronomy/models/item/valor_seed.json
@@ -10,12 +10,12 @@ b9d861f04e67eb3e7992718afcd4f9b84b8725e6 assets/agronomy/models/item/catriona_se
 66aad8f80333354e52cb52c9700ac483845e2599 assets/agronomy/models/item/anya_seed.json
 72f85bbfe48a31eb6337f191260dd47abeef254a assets/agronomy/models/item/kifli_seed.json
 864db3c237cd07023e361db8243cad625356c454 assets/agronomy/models/item/nicola_seed.json
-76e3cc48bae636fdb5ae5540519615e160dc6c8f assets/agronomy/models/item/jersey_royal_seed.json
 b1aa3980be5a0e66a5d5992d6c288768db2f4595 assets/agronomy/models/item/swift_seed.json
+76e3cc48bae636fdb5ae5540519615e160dc6c8f assets/agronomy/models/item/jersey_royal_seed.json
 bb0218f480cb6f8a66a1748bd3180b8c1e7a42d5 assets/agronomy/models/item/kestrel_seed.json
 2ebdaab5ff74aedee65887cb869caa7010c1cbcc assets/agronomy/models/item/puritan_seed.json
-57c02e939c9c08d11f8620f4698ef2e04c26ed80 assets/agronomy/models/item/red_duke_of_york_seed.json
 4367a6340ac3cbb9acac2441d8c59936e50bd667 assets/agronomy/models/item/purple_majesty_seed.json
+57c02e939c9c08d11f8620f4698ef2e04c26ed80 assets/agronomy/models/item/red_duke_of_york_seed.json
 a1d4f58aacd4f214c8c09f7388d8a1c1025153a7 assets/agronomy/models/item/ratte_seed.json
 72e4712cdd260d7d2b049f6d304e37febd6f2066 assets/agronomy/models/item/romano_seed.json
 80abadda14f730ccb54f30637b2c0fda616166d1 assets/agronomy/models/item/elba_seed.json
@@ -49,8 +49,8 @@ a3d4f3a3a726ce07eae48ab00e78c2697a8603d7 assets/agronomy/models/item/british_que
 b2d6a0023be8aad628d92821f895c704b06eceaf assets/agronomy/models/item/vivaldi_seed.json
 1afbd0008bac4bc4e6f902ec43c709c52bdef9b3 assets/agronomy/models/item/kennebec_seed.json
 ccc4af5cb1fe351878bc07143c31d4d1ef5b18c8 assets/agronomy/models/item/duke_of_york_seed.json
-15886c206212d77736117e3bddd8296ef4afbe35 assets/agronomy/models/item/arran_pilot_seed.json
 073dc59136bd9f26e874a45ae5472a2eda2e0c78 assets/agronomy/models/item/accord_seed.json
+15886c206212d77736117e3bddd8296ef4afbe35 assets/agronomy/models/item/arran_pilot_seed.json
 ec9d15f3535949cb161169562aeae3bae22464a6 assets/agronomy/models/item/rooster_seed.json
 f5886c0a62a5831ac50bde01a18b6f7f84c265ca assets/agronomy/models/item/casablanca_seed.json
 214e3bf5f2ad9634d38b301847ba5cafb69b04f1 assets/agronomy/models/item/red_gold_seed.json
