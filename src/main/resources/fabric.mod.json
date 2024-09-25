@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "agronomy",
+  "version": "${version}",
+  "name": "Agronomy",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/IDoTheHax/Agronomy"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/agronomy/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.idothehax.agronomy.client.AgronomyClient"
+    ],
+    "main": [
+      "net.idothehax.agronomy.Agronomy"
+    ]
+  },
+  "mixins": [
+    "agronomy.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
