@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "agronomy:item/duke_of_york_seed"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "agronomy:item/russian_banana_fingerling_seed"
+  }
+}

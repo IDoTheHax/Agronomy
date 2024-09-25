@@ -15,6 +15,9 @@
     "client": [
       "net.idothehax.agronomy.client.AgronomyClient"
     ],
+    "fabric-datagen": [
+      "net.idothehax.agronomy.AgronomyDataGenerator"
+    ],
     "main": [
       "net.idothehax.agronomy.Agronomy"
     ]
