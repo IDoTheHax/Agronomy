@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.idothehax.agronomy.item.ModItems;
 import net.minecraft.block.Blocks;
+import net.minecraft.item.Items;
 import net.minecraft.loot.LootPool;
 import net.minecraft.loot.LootTable;
 import net.minecraft.loot.entry.AlternativeEntry;
@@ -33,16 +34,16 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         //addLoot(ModBlocks.DESIREE_CROP, ModItems.DESIREE_SEEDS);
         // Add additional crops as needed
 
-        addSeedLootTable
+        addSeedLootTable();
     }
 
     private void addSeedLootTable() {
         // Modify the Minecraft dirt loot table
-        this.addDropWithCustomLootTable(Blocks.SHORT_GRASS, LootTable.builder()
+        this.addDrop(Blocks.SHORT_GRASS, LootTable.builder()
             .pool(LootPool.builder()
                 .rolls(ConstantLootNumberProvider.create(1))
-                .with(ItemEntry.builder(Items.WHEAT_SEED))
-                .with(ItemEntry.builder(ModItems.SANTE_SEED)
+                .with(ItemEntry.builder(Items.WHEAT_SEEDS))
+                .with(ItemEntry.builder(ModItems.ACCORD_SEED)
                     .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 2.0f)))) // Drop 1-2 diamonds
             )
         );
