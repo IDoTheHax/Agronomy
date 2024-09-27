@@ -21,10 +21,10 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCrop(ModBlocks.SWIFT_POTATOES, CropBlock.AGE, 0, 1, 2, 3, 4, 5, 6, 7);
     }
 
+
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         // Early Varieties
-        itemModelGenerator.register(ModItems.SWIFT_SEED, Models.GENERATED);
         itemModelGenerator.register(ModItems.PENTLAND_JAVELIN_SEED, Models.GENERATED);
         itemModelGenerator.register(ModItems.ROCKET_SEED, Models.GENERATED);
         itemModelGenerator.register(ModItems.CASABLANCA_SEED, Models.GENERATED);

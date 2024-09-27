@@ -13,6 +13,7 @@ import net.minecraft.item.Items;
 import net.minecraft.loot.LootPool;
 import net.minecraft.loot.LootTable;
 import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
+import net.minecraft.loot.condition.LootCondition;
 import net.minecraft.loot.entry.AlternativeEntry;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.function.ApplyBonusLootFunction;
@@ -41,13 +42,17 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         //addLoot(ModBlocks.ROCKET_CROP, ModItems.ROCKET_SEEDS);
         //addLoot(ModBlocks.CASABLANCA_CROP, ModItems.CASABLANCA_SEEDS);
         //addLoot(ModBlocks.MARIS_PIPER_CROP, ModItems.MARIS_PIPER_SEEDS);
-        //addLoot(ModBlocks.KING_EDWARD_CROP, ModItems.KING_EDWARD_SEEDS);
+        addDrop(ModBlocks.FOREMOST_POTATOES);
+        addDrop(ModBlocks.KING_EDWARD_POTATOES, ModItems.KING_EDWARD_SEED);
         //addLoot(ModBlocks.DESIREE_CROP, ModItems.DESIREE_SEEDS);
         // Add additional crops as needed
 
         addSeedLootTable();
 
         addPotatoLootTable(ModBlocks.SWIFT_POTATOES, "swift_potato");
+
+        LootCondition.Builder builder2 = BlockStatePropertyLootCondition.builder(ModBlocks.SWIFT_POTATOES).properties(StatePredicate.Builder.create().exactMatch(CropBlock.AGE, 7));
+        addDrop(ModBlocks.SWIFT_POTATOES, cropDrops(ModBlocks.SWIFT_POTATOES, ModItems.SWIFT_SEED, ModItems.SWIFT_SEED, builder2));
     }
 
     private void addPotatoLootTable(Block block, String name) {

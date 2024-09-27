@@ -1,3 +1,5 @@
-// 1.21	2024-09-26T15:23:58.615564	Agronomy/Block Loot Tables
-bc4c90da3426114019dba91dd25eb44fec7f8f1d data/minecraft/loot_table/blocks/short_grass.json
-346aeb5cc0e2b84a5645adb7187cfcc561dceee9 data/agronomy/loot_table/blocks/swift_potatoes.json
+// 1.21	2024-09-27T22:39:37.45979	Agronomy/Block Loot Tables
+66601db73dc3aa67b0e9092e1a1cff700b1c7a6f data/minecraft/loot_table/blocks/swift_potatoes.json
+d37cad174af039d945f396b055d42e665d9ea8c2 data/minecraft/loot_table/blocks/foremost_potatoes.json
+11725c4ceda14a8d87fc41d8a88bb838644261c0 data/minecraft/loot_table/blocks/short_grass.json
+ab4703929715fe49f867ef3878a182139cda9a0f data/minecraft/loot_table/blocks/king_edward_potatoes.json

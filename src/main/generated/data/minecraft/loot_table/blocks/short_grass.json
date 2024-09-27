@@ -21,7 +21,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "agronomy:accord_seed"
+          "name": "agronomy:swift_seed"
         }
       ],
       "rolls": 1.0
