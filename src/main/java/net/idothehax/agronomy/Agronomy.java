@@ -1,6 +1,8 @@
 package net.idothehax.agronomy;
 
 import net.fabricmc.api.ModInitializer;
+import net.idothehax.agronomy.block.ModBlockGroups;
+import net.idothehax.agronomy.block.ModBlocks;
 import net.idothehax.agronomy.item.ModItemGroups;
 import net.idothehax.agronomy.item.ModItems;
 
@@ -15,6 +17,8 @@ public class Agronomy implements ModInitializer {
     public void onInitialize() {
         LOGGER.info("Initializing Agronomy");
         ModItems.registerItems();
+        ModBlocks.registerBlocks();
         ModItemGroups.registerItemGroups();
+        ModBlockGroups.registerBlockGroups();
     }
 }

@@ -1,4 +1,4 @@
-package net.idothehax.agronomy.seed;
+package net.idothehax.agronomy.seed.grain;
 
 public class GrainTrait {
     private final String name;

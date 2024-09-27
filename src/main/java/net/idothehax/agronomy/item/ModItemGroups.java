@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup POTATOS_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Agronomy.MOD_ID, "potatos"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.ACCORD_SEED))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.SWIFT_SEED))
                     .displayName(Text.translatable("itemgroup.agronomy.potatos"))
                     .entries((displayContext, entries) -> {
                         // Add all potato seeds here

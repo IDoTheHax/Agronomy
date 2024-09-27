@@ -60,5 +60,7 @@
   "item.agronomy.congo_seed": "Congo Seed",
   "item.agronomy.mayan_gold_seed": "Mayan Gold Seed",
   
-  "itemgroup.agronomy.potatos": "Potatos List"
+  "itemgroup.agronomy.potatos": "Potatos List",
+  "itemgroup.agronomy.block_potatos": "Block Potatos List"
+
 }
