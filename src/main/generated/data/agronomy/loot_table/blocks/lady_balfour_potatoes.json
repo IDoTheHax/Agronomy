@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "agronomy:foremost_seed"
+          "name": "agronomy:lady_balfour_seed"
         }
       ],
       "rolls": 1.0
@@ -20,7 +20,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "agronomy:foremost_potatoes",
+          "block": "agronomy:lady_balfour_potatoes",
           "condition": "minecraft:block_state_property",
           "properties": {
             "age": "7"
@@ -41,7 +41,7 @@
               }
             }
           ],
-          "name": "agronomy:foremost_seed"
+          "name": "agronomy:lady_balfour_seed"
         }
       ],
       "rolls": 1.0
@@ -50,7 +50,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "agronomy:foremost_potatoes",
+          "block": "agronomy:lady_balfour_potatoes",
           "condition": "minecraft:block_state_property",
           "properties": {
             "age": "7"

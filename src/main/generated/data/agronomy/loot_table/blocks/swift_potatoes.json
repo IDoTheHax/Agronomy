@@ -10,26 +10,8 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
-            {
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "block": "agronomy:swift_potatoes",
-                  "condition": "minecraft:block_state_property",
-                  "properties": {
-                    "age": "2"
-                  }
-                }
-              ],
-              "name": "agronomy:swift_seed"
-            },
-            {
-              "type": "minecraft:item",
-              "name": "agronomy:swift_seed"
-            }
-          ]
+          "type": "minecraft:item",
+          "name": "agronomy:swift_seed"
         }
       ],
       "rolls": 1.0
@@ -41,7 +23,7 @@
           "block": "agronomy:swift_potatoes",
           "condition": "minecraft:block_state_property",
           "properties": {
-            "age": "2"
+            "age": "7"
           }
         }
       ],
@@ -60,6 +42,31 @@
             }
           ],
           "name": "agronomy:swift_seed"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "agronomy:swift_potatoes",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "age": "7"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "chance": 0.02,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "name": "minecraft:poisonous_potato"
         }
       ],
       "rolls": 1.0
