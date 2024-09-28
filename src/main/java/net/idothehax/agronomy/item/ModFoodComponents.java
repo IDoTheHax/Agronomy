@@ -4,6 +4,7 @@ import net.minecraft.component.type.FoodComponent;
 import net.minecraft.component.type.FoodComponents;
 
 public class ModFoodComponents {
+    public static final FoodComponent SWEED_POTATO = new FoodComponent.Builder().nutrition(4).saturationModifier(0.5f).build();
     public static final FoodComponent SWIFT = new FoodComponent.Builder().nutrition(4).saturationModifier(0.5f).build();
     public static final FoodComponent PENTLAND_JAVELIN = new FoodComponent.Builder().nutrition(4).saturationModifier(0.5f).build();
     public static final FoodComponent ROCKET = new FoodComponent.Builder().nutrition(4).saturationModifier(0.5f).build();

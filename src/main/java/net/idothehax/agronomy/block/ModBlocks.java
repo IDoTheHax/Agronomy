@@ -15,6 +15,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.shape.VoxelShape;
 
 public class ModBlocks {
+    public static final Block SWEET_POTATO;
     public static final Block SWIFT_POTATOES;
     public static final Block PENTLAND_JAVELIN_POTATOES;
     public static final Block ROCKET_POTATOES;
@@ -75,6 +76,7 @@ public class ModBlocks {
 
     static {
         // First Earlies
+        SWEET_POTATO = registerCropBlocks("sweet_potatoes", new CropBlock(AbstractBlock.Settings.create().mapColor(MapColor.BRIGHT_RED).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
         SWIFT_POTATOES = registerCropBlocks("swift_potatoes", new CropBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
         PENTLAND_JAVELIN_POTATOES = registerCropBlocks("pentland_javelin_potatoes", new CropBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
         ROCKET_POTATOES = registerCropBlocks("rocket_potatoes", new CropBlock(AbstractBlock.Settings.create().mapColor(MapColor.DARK_GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)));
