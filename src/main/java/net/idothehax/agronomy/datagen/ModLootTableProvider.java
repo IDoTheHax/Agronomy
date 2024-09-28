@@ -37,6 +37,16 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         // First Earlies
+        LootCondition.Builder builderSweet = BlockStatePropertyLootCondition.builder(ModBlocks.SWEET_POTATO)
+                .properties(StatePredicate.Builder.create().exactMatch(PotatoesBlock.AGE, 7));
+        this.addDrop(ModBlocks.SWEET_POTATO, this.applyExplosionDecay(ModBlocks.SWEET_POTATO, LootTable.builder()
+                .pool(LootPool.builder().with(ItemEntry.builder(ModItems.SWEET_POTATO)))
+                .pool(LootPool.builder().conditionally(builderSweet).with(ItemEntry.builder(ModItems.SWEET_POTATO)
+                        .apply(ApplyBonusLootFunction.binomialWithBonusCount(impl.getOrThrow(Enchantments.FORTUNE), 0.5714286F, 3))))
+                .pool(LootPool.builder().conditionally(builderSweet).with(ItemEntry.builder(Items.POISONOUS_POTATO)
+                        .conditionally(RandomChanceLootCondition.builder(0.02F))))));
+
+
         LootCondition.Builder builderSwift = BlockStatePropertyLootCondition.builder(ModBlocks.SWIFT_POTATOES)
                 .properties(StatePredicate.Builder.create().exactMatch(PotatoesBlock.AGE, 7));
         this.addDrop(ModBlocks.SWIFT_POTATOES, this.applyExplosionDecay(ModBlocks.SWIFT_POTATOES, LootTable.builder()

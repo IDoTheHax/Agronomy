@@ -13,7 +13,7 @@ import static net.idothehax.agronomy.item.ModFoodComponents.*;
 public class ModItems {
 
     // First Earlies
-    public static final Item SWEET_POTATO = new BaseSeedItem(ModBlocks.SWIFT_POTATOES, new Item.Settings().food(SWIFT), ModPotatoVariants.SWIFT);
+    public static final Item SWEET_POTATO = new BaseSeedItem(ModBlocks.SWEET_POTATO, new Item.Settings().food(SWEED_POTATO), ModPotatoVariants.SWEET_POTATO);
     public static final Item SWIFT_SEED = new BaseSeedItem(ModBlocks.SWIFT_POTATOES, new Item.Settings().food(SWIFT), ModPotatoVariants.SWIFT);
     public static final Item PENTLAND_JAVELIN_SEED = new BaseSeedItem(ModBlocks.PENTLAND_JAVELIN_POTATOES, new Item.Settings().food(PENTLAND_JAVELIN), ModPotatoVariants.PENTLAND_JAVELIN);
     public static final Item ROCKET_SEED = new BaseSeedItem(ModBlocks.ROCKET_POTATOES, new Item.Settings().food(ROCKET), ModPotatoVariants.ROCKET);
@@ -80,6 +80,7 @@ public class ModItems {
 
     public static void registerItems() {
         // Register First Earlies
+        Registry.register(Registries.ITEM, Identifier.of(Agronomy.MOD_ID, "sweet_potato"), SWEET_POTATO);
         Registry.register(Registries.ITEM, Identifier.of(Agronomy.MOD_ID, "swift_seed"), SWIFT_SEED);
         Registry.register(Registries.ITEM, Identifier.of(Agronomy.MOD_ID, "pentland_javelin_seed"), PENTLAND_JAVELIN_SEED);
         Registry.register(Registries.ITEM, Identifier.of(Agronomy.MOD_ID, "rocket_seed"), ROCKET_SEED);

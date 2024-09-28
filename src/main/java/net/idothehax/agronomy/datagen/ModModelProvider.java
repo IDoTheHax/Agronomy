@@ -25,6 +25,8 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         // Early Varieties
+        itemModelGenerator.register(ModItems.SWEET_POTATO, Models.GENERATED);
+        //itemModelGenerator.register(ModItems.SWIFT_SEED, Models.GENERATED);
         itemModelGenerator.register(ModItems.PENTLAND_JAVELIN_SEED, Models.GENERATED);
         itemModelGenerator.register(ModItems.ROCKET_SEED, Models.GENERATED);
         itemModelGenerator.register(ModItems.CASABLANCA_SEED, Models.GENERATED);

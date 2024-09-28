@@ -1,4 +1,4 @@
-// 1.21	2024-09-28T16:39:42.165442	Agronomy/Block Loot Tables
+// 1.21	2024-09-28T21:11:46.334333	Agronomy/Block Loot Tables
 9bbcbded5f1e105faffaa05ee52038d9c1eef7b5 data/agronomy/loot_table/blocks/mayan_gold_potatoes.json
 54ec862c859cf98fbe1b62e97b4a73930ed3c931 data/agronomy/loot_table/blocks/casablanca_potatoes.json
 4b77224a7235eb981eee6e49aa842e1a52739b6d data/agronomy/loot_table/blocks/bonnie_potatoes.json
@@ -7,6 +7,7 @@ fe5d7b54b54e4cf7c18458003f6082c09220a8b8 data/agronomy/loot_table/blocks/red_duk
 9afd29836cb82b36d4b10b76951083ba4dd142a2 data/agronomy/loot_table/blocks/pink_fir_apple_potatoes.json
 484cd3c25d4309cbd2e77e08c40382d0571bf270 data/agronomy/loot_table/blocks/kennebec_potatoes.json
 2d1eb1f81fd12383a096e7977a664c39455bebe8 data/agronomy/loot_table/blocks/record_potatoes.json
+d512545a136aec7299c88d962342a64e1fe8ebb6 data/agronomy/loot_table/blocks/sweet_potatoes.json
 365f591d741ab95f256bb7acce3a0d25b4b14300 data/agronomy/loot_table/blocks/vivaldi_potatoes.json
 9f3e7fd72f8ff3f51db73573222aa31e18a5cfd3 data/agronomy/loot_table/blocks/sante_potatoes.json
 0a7b412d46498cd8e101db55170ef6d986315a9d data/agronomy/loot_table/blocks/desiree_potatoes.json

@@ -9,10 +9,10 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-public class ModItemGroups {
+public class ModCreativeGroups {
     public static final ItemGroup POTATOS_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Agronomy.MOD_ID, "potatos"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.SWIFT_SEED))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.DUNLUCE_SEED))
                     .displayName(Text.translatable("itemgroup.agronomy.potatos"))
                     .entries((displayContext, entries) -> {
                         // Add all potato seeds here
@@ -79,9 +79,7 @@ public class ModItemGroups {
                         entries.add(ModItems.MARFONA_SEED);
                     }).build());
 
-
-
-    public static void registerItemGroups() {
-        Agronomy.LOGGER.info("Registering Item Groups for " + Agronomy.MOD_ID);
+    public static void registerCreativeGroups() {
+        Agronomy.LOGGER.info("Registering Groups for " + Agronomy.MOD_ID);
     }
 }

@@ -6,6 +6,7 @@ import java.util.Arrays;
 
 public class ModPotatoVariants {
     // First Earlies
+    public static final SeedData SWEET_POTATO;
     public static final SeedData SWIFT;
     public static final SeedData PENTLAND_JAVELIN;
     public static final SeedData ROCKET;
@@ -76,6 +77,9 @@ public class ModPotatoVariants {
 
     static {
         // First Earlies
+        SWEET_POTATO = new SeedData("Sweet Potato", PotatoCategory.FIRST_EARLIES, Arrays.asList(
+                new PotatoTrait("Sweet Potato", 3, 4, 2, "buttery")
+        ));
         SWIFT = new SeedData("Swift", PotatoCategory.FIRST_EARLIES, Arrays.asList(
                 new PotatoTrait("Swift", 3, 4, 2, "buttery")
         ));

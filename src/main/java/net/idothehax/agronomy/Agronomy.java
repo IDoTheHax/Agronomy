@@ -3,7 +3,7 @@ package net.idothehax.agronomy;
 import net.fabricmc.api.ModInitializer;
 import net.idothehax.agronomy.block.ModBlockGroups;
 import net.idothehax.agronomy.block.ModBlocks;
-import net.idothehax.agronomy.item.ModItemGroups;
+import net.idothehax.agronomy.item.ModCreativeGroups;
 import net.idothehax.agronomy.item.ModItems;
 
 import org.slf4j.Logger;
@@ -18,7 +18,7 @@ public class Agronomy implements ModInitializer {
         LOGGER.info("Initializing Agronomy");
         ModItems.registerItems();
         ModBlocks.registerBlocks();
-        ModItemGroups.registerItemGroups();
+        ModCreativeGroups.registerCreativeGroups();
         ModBlockGroups.registerBlockGroups();
     }
 }
