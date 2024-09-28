@@ -51,7 +51,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addPotatoLootTable(ModBlocks.SWIFT_POTATOES, "swift_potato");
 
-        LootCondition.Builder builder2 = BlockStatePropertyLootCondition.builder(ModBlocks.SWIFT_POTATOES).properties(StatePredicate.Builder.create().exactMatch(CropBlock.AGE, 7));
+        LootCondition.Builder builder2 = BlockStatePropertyLootCondition.builder(ModBlocks.SWIFT_POTATOES).properties(StatePredicate.Builder.create().exactMatch(CropBlock.AGE, 2));
         addDrop(ModBlocks.SWIFT_POTATOES, cropDrops(ModBlocks.SWIFT_POTATOES, ModItems.SWIFT_SEED, ModItems.SWIFT_SEED, builder2));
     }
 

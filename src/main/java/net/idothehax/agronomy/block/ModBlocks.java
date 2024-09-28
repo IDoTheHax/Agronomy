@@ -140,7 +140,7 @@ public class ModBlocks {
     }
 
     public static Block registerCropBlocks(String id, Block block) {
-        return (Block)Registry.register(Registries.BLOCK, id, block);
+        return (Registry.register(Registries.BLOCK, Identifier.of(Agronomy.MOD_ID, id), block));
     }
 
     public static void registerBlocks() {
