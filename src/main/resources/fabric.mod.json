@@ -4,7 +4,8 @@
   "version": "${version}",
   "name": "Agronomy",
   "description": "",
-  "authors": [],
+  "authors": ["IDoTheHax"],
+  "contributors": ["The...Why...Even...How?"],
   "contact": {
     "repo": "https://github.com/IDoTheHax/Agronomy"
   },
