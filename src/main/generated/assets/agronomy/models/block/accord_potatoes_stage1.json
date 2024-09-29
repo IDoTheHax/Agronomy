@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "agronomy:block/accord_potatoes_stage1"
+  }
+}

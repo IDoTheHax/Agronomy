@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "agronomy:block/bonnie_potatoes_stage1"
+  }
+}

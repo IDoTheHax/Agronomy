@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "agronomy:block/home_guard_potatoes_stage1"
+  }
+}

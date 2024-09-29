@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "agronomy:block/puritan_potatoes_stage3"
+  }
+}

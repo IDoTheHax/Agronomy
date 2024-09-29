@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "agronomy:block/pink_fir_apple_potatoes_stage0"
+    },
+    "age=1": {
+      "model": "agronomy:block/pink_fir_apple_potatoes_stage0"
+    },
+    "age=2": {
+      "model": "agronomy:block/pink_fir_apple_potatoes_stage1"
+    },
+    "age=3": {
+      "model": "agronomy:block/pink_fir_apple_potatoes_stage1"
+    },
+    "age=4": {
+      "model": "agronomy:block/pink_fir_apple_potatoes_stage2"
+    },
+    "age=5": {
+      "model": "agronomy:block/pink_fir_apple_potatoes_stage2"
+    },
+    "age=6": {
+      "model": "agronomy:block/pink_fir_apple_potatoes_stage2"
+    },
+    "age=7": {
+      "model": "agronomy:block/pink_fir_apple_potatoes_stage3"
+    }
+  }
+}

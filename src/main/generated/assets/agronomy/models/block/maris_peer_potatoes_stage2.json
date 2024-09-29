@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "agronomy:block/maris_peer_potatoes_stage2"
+  }
+}

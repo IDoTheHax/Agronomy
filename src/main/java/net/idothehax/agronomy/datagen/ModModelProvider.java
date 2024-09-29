@@ -18,7 +18,68 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerCrop(ModBlocks.SWIFT_POTATOES, CropBlock.AGE, 0, 1, 2, 3, 4, 5, 6, 7);
+        // First Earlies
+        blockStateModelGenerator.registerCrop(ModBlocks.SWIFT_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.PENTLAND_JAVELIN_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.ROCKET_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.CASABLANCA_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.ARRAN_PILOT_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.DUKE_OF_YORK_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.RED_DUKE_OF_YORK_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.EPICURE_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.FOREMOST_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.HOME_GUARD_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.LADY_CHRISTL_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.ORLA_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.PREMIERE_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.PURITAN_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.ULSTER_PRINCE_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.JERSEY_ROYAL_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.MARFONA_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+
+        // Second Earlies
+        blockStateModelGenerator.registerCrop(ModBlocks.MARIS_PEER_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.CHARLOTTE_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.NICOLA_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.ANYA_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.BONNIE_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.BRITISH_QUEEN_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.CATRIONA_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.DUNLUCE_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.ESTIMA_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.KESTREL_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.NADINE_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.RATTE_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.WILJA_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+
+        // Maincrop
+        blockStateModelGenerator.registerCrop(ModBlocks.KING_EDWARD_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.MARIS_PIPER_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.PICASSO_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.DESIREE_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.PINK_FIR_APPLE_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.SARPO_MIRA_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.MAJESTIC_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.RECORD_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.ROMANO_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.ROOSTER_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.SANTE_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.SAXON_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.VALOR_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+
+        blockStateModelGenerator.registerCrop(ModBlocks.ELBA_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.KENNEBEC_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.RED_GOLD_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.MASQUERADE_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.PURPLE_MAJESTY_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.RUSSIAN_BANANA_FINGERLING_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.RED_NORLAND_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.KIFLI_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.LADY_BALFOUR_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.VIVALDI_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.ACCORD_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.CARA_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
+        blockStateModelGenerator.registerCrop(ModBlocks.MAYAN_GOLD_POTATOES, Properties.AGE_7, 0, 0, 1, 1, 2, 2, 2, 3);
     }
 
 
@@ -26,7 +87,7 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         // Early Varieties
         itemModelGenerator.register(ModItems.SWEET_POTATO, Models.GENERATED);
-        //itemModelGenerator.register(ModItems.SWIFT_SEED, Models.GENERATED);
+        /*itemModelGenerator.register(ModItems.SWIFT_SEED, Models.GENERATED);
         itemModelGenerator.register(ModItems.PENTLAND_JAVELIN_SEED, Models.GENERATED);
         itemModelGenerator.register(ModItems.ROCKET_SEED, Models.GENERATED);
         itemModelGenerator.register(ModItems.CASABLANCA_SEED, Models.GENERATED);
@@ -88,6 +149,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.VIVALDI_SEED, Models.GENERATED);
         itemModelGenerator.register(ModItems.ACCORD_SEED, Models.GENERATED);
         itemModelGenerator.register(ModItems.CONGO_SEED, Models.GENERATED);
-        itemModelGenerator.register(ModItems.MAYAN_GOLD_SEED, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MAYAN_GOLD_SEED, Models.GENERATED);*/
     }
 }

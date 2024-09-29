@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "agronomy:block/pink_fir_apple_potatoes_stage3"
+  }
+}
